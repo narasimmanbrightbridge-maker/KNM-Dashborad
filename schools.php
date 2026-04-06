@@ -97,7 +97,7 @@
             <tbody>
               <tr>
                 <td>1</td>
-                <td>9129</td>
+                <td><a href="school-detail.php">9129</a></td>
                 <td>Sri Gopal Naidu Children's School</td>
                 <td>South</td>
                 <td>
@@ -274,9 +274,6 @@
               <td>Nishant rathee</td>
               <td>Murthy</td>
               <td>Active</td>
-
-
-
 
             </tbody>
           </table>
