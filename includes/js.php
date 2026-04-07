@@ -12,7 +12,8 @@
 <script src="assets/js/dashboard.js"></script>
 <script src="assets/js/new.js"></script>
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script> -->
-<script src="assets/js/select2new.js"></script>
+
+
 
 <script>
   $(document).ready(function() {
@@ -251,4 +252,140 @@
       }
     });
   });
+  
 </script>
+
+<script>
+const labelPlugin = {
+  id: 'labelPlugin',
+  afterDraw(chart) {
+    const { ctx } = chart;
+
+    chart.data.datasets.forEach((dataset, i) => {
+      const meta = chart.getDatasetMeta(i);
+      const arc = meta.data[0];
+
+      if (!arc) return;
+
+      const value = dataset.data[0];
+      const label = dataset.label;
+
+      // ✅ Start angle (beginning of arc)
+      const angle = arc.startAngle;
+
+      const radius = arc.outerRadius + 30;
+
+      const x = arc.x + Math.cos(angle) * radius;
+      const y = arc.y + Math.sin(angle) * radius;
+
+      ctx.save();
+      ctx.font = '500 13px Arial';
+      ctx.fillStyle = '#737373';
+      ctx.textBaseline = 'middle';
+
+      ctx.textAlign = x > arc.x ? 'left' : 'right';
+
+      // ✅ Proper spacing (instead of marginTop)
+      const yOffset = 35;
+
+      ctx.fillText(`${label} ${value}%`, x, y + yOffset);
+
+      ctx.restore();
+    });
+  }
+};
+
+const data = {
+  datasets: [
+    {
+      label: 'Received',
+      data: [75, 25],
+      backgroundColor: ['#22a699', '#fff'],
+      borderWidth: 0,
+      radius: '100%',
+      cutout: '75%'
+    },
+    {
+      label: 'Pending',
+      data: [75, 25],
+      backgroundColor: ['#3a7bd5', '#fff'],
+      borderWidth: 0,
+      radius: '85%',
+      cutout: '75%'
+    },
+    {
+      label: 'Overdue',
+      data: [75, 25],
+      backgroundColor: ['#f39c12', '#fff'],
+      borderWidth: 0,
+      radius: '70%',
+      cutout: '75%'
+    }
+  ]
+};
+
+const config = {
+  type: 'doughnut',
+  data: data,
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    layout: {
+      padding: 40
+    },
+    plugins: {
+      legend: {
+        display: false
+      },
+      tooltip: {
+        enabled: false
+      }
+    }
+  },
+  plugins: [labelPlugin]
+};
+
+new Chart(document.getElementById('chart'), config);
+</script>
+
+
+<script>
+    const ctx = document.getElementById('schoolchart').getContext('2d');
+
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['New', 'Renewed', 'Expiring', 'Closed'],
+        datasets: [{
+          data: [90, 72, 40, 22],
+          backgroundColor: '#f5a300',
+          borderRadius: 10,
+          barPercentage: 0.6,
+          categoryPercentage: 0.6
+        }]
+      },
+      options: {
+        plugins: {
+          legend: { display: false }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            max: 100,
+            ticks: {
+              stepSize: 20
+            },
+            grid: {
+              color: '#d0d7de',
+              borderDash: [5, 5]
+            }
+          },
+          x: {
+            grid: {
+              display: false
+            }
+          }
+        }
+      }
+    });
+  </script>

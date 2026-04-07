@@ -26,7 +26,6 @@
     </div>
 </div>
 
-
 <!-- two -->
 
 <div class="modal fade" id="staticBackdropOne" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -121,7 +120,6 @@
         </div>
     </div>
 </div>
-
 
 
 <!-- four -->

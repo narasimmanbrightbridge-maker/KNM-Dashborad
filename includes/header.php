@@ -11,7 +11,7 @@ $mainHeading = $pageTitles[$currentPage] ?? 'KNM Dashboard';
 <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
   <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-start">
     <a class="navbar-brand brand-logo" href="index.php"><img src="assets/images/logo.svg" alt="Health Basix logo" /></a>
-    <a class="navbar-brand brand-logo-mini" href="index.php"><img src="assets/images/logo.svg" alt="Health Basix logo" /></a>
+    <a class="navbar-brand brand-logo-mini" href="index.php"><img src="assets/images/mini-logo-two.svg" alt="Health Basix logo" /></a>
   </div>
   <div class="navbar-menu-wrapper d-flex align-items-center">
     <button class="navbar-toggler align-self-center" type="button" data-toggle="minimize" aria-label="Toggle sidebar">
@@ -24,11 +24,13 @@ $mainHeading = $pageTitles[$currentPage] ?? 'KNM Dashboard';
     <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas" aria-label="Open navigation">
       <span><img src="assets/images/menu.svg" alt="Open menu"></span>
     </button>
+
+    <img width="50" src="assets/images/group-one.svg" alt="">
+
   </div>
 </nav>
 <!-- partial -->
 <div class="container-fluid page-body-wrapper">
-  <!-- partial:partials/_sidebar.html -->
   <nav class="sidebar sidebar-offcanvas" id="sidebar">
     <ul class="nav">
 
@@ -58,17 +60,16 @@ $mainHeading = $pageTitles[$currentPage] ?? 'KNM Dashboard';
       </li>
       <li class="nav-item">
         <i class=""><img src="assets/images/t3.svg" alt=""></i>
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="costings.php">
           <span class="menu-title">Costings</span>
         </a>
       </li>
       <li class="nav-item">
         <i class=""><img src="assets/images/t4.svg" alt=""></i>
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="invoice.php">
           <span class="menu-title">Invoice</span>
         </a>
       </li>
-
 
       <li class="nav-item">
         <i class=""><img src="assets/images/t6.svg" alt=""></i>
@@ -76,7 +77,6 @@ $mainHeading = $pageTitles[$currentPage] ?? 'KNM Dashboard';
           <span class="menu-title">Users</span>
         </a>
       </li>
-
 
     </ul>
   </nav>

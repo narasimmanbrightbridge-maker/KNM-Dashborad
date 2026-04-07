@@ -5,8 +5,9 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Health Basix | KNM Dashboard</title>
+  <title>Health Basix | Costing</title>
   <?php include './includes/css.php'; ?>
+  <link rel="icon" type="image/x-icon" href="assets/images/mini-logo-two.svg">
 </head>
 
 <body>
@@ -17,7 +18,7 @@
       <div class="content-wrapper">
 
         <section class="section-one">
-          <div class="container">
+          <div class="container-fluid">
             <div class="row">
 
               <div class="sec">
@@ -67,7 +68,7 @@
 
 
         <section class="tables_sec">
-          <div class="container">
+          <div class="container-fluid">
             <div class="row">
               <div class="tabss">
                 <div class="switch-toggle">
@@ -211,7 +212,7 @@
 
 
         <section class="tables_sec">
-          <div class="container">
+          <div class="container-fluid">
             <div class="row">
               <div class="tabels mb-4">
                 <h3>Health Assessments</h3>
@@ -301,7 +302,7 @@
 
 
         <section class="tables_sec">
-          <div class="container">
+          <div class="container-fluid">
             <div class="row">
               <div class="tabels mb-4">
                 <h3>BD OPS Travel per month</h3>

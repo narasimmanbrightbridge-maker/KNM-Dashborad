@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Health Basix | KNM Dashboard</title>
   <?php include './includes/css.php'; ?>
+  <link rel="icon" type="image/x-icon" href="assets/images/mini-logo-two.svg">
 </head>
 
 <body>
@@ -19,10 +20,10 @@
         <div class="TopBarSec d-flex align-items-center">
 
           <section class="search_sec">
-            <div class="container">
+            <div class="container-fluid">
               <div class="row">
 
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-12">
                   <div class="center">
                     <select class="select2">
                       <option value="1" selected>Region</option>
@@ -32,7 +33,7 @@
                   </div>
                 </div>
 
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-12">
                   <div class="center">
                     <select class="select2">
                       <option value="1" selected>KAM</option>
@@ -42,7 +43,7 @@
                   </div>
                 </div>
 
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-12">
                   <div class="center">
                     <select class="select2">
                       <option value="1" selected>BD</option>
@@ -52,7 +53,7 @@
                   </div>
                 </div>
 
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-12">
                   <div class="center">
                     <select class="select2">
                       <option value="1" selected>Services</option>
@@ -62,7 +63,7 @@
                   </div>
                 </div>
 
-                <div class="col-lg-2">
+                <div class="col-lg-2 col-md-12">
                   <div class="center">
                     <select class="select2">
                       <option value="1" selected>School Status</option>

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Health Basix | KNM Dashboard</title>
   <?php include './includes/css.php'; ?>
+  <link rel="icon" type="image/x-icon" href="assets/images/mini-logo-two.svg">
 </head>
 
 <body>
@@ -14,9 +15,6 @@
     <!-- partial -->
     <div class="main-panel">
       <div class="content-wrapper">
-
-
-
       </div>
 
       <?php include './includes/footer.php'; ?>
