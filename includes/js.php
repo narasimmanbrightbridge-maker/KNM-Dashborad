@@ -11,9 +11,66 @@
 <script src="assets/js/jquery.cookie.js"></script>
 <script src="assets/js/dashboard.js"></script>
 <script src="assets/js/new.js"></script>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
 
+<script>
+  const revenueCtx = document.getElementById('revenueChart').getContext('2d');
 
+  new Chart(revenueCtx, {
+    type: 'line',
+    data: {
+      labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+      datasets: [{
+        label: 'Revenue (₹)',
+        data: [30000, 120000, 80000, 185000, 105000, 145000],
+        borderColor: '#f4a100',
+        backgroundColor: '#f4a100',
+        tension: 0.4,
+        pointRadius: 5,
+        pointHoverRadius: 6,
+        pointBackgroundColor: '#fff',
+        pointBorderColor: '#f4a100',
+        pointBorderWidth: 3,
+        fill: false
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: {
+          display: false
+        },
+        tooltip: {
+          backgroundColor: '#333',
+          titleColor: '#fff',
+          bodyColor: '#fff'
+        }
+      },
+      scales: {
+        x: {
+          grid: {
+            display: false
+          },
+          ticks: {
+            color: '#666'
+          }
+        },
+        y: {
+          beginAtZero: true,
+          ticks: {
+            color: '#666',
+            stepSize: 50000
+          },
+          grid: {
+            color: '#e0e6ed',
+            borderDash: [5, 5]
+          }
+        }
+      }
+    }
+  });
+</script>
 
 <script>
   $(document).ready(function() {
@@ -350,9 +407,9 @@ new Chart(document.getElementById('chart'), config);
 
 
 <script>
-    const ctx = document.getElementById('schoolchart').getContext('2d');
+    const schoolCtx  = document.getElementById('schoolchart').getContext('2d');
 
-    new Chart(ctx, {
+    new Chart(schoolCtx, {
       type: 'bar',
       data: {
         labels: ['New', 'Renewed', 'Expiring', 'Closed'],
@@ -365,6 +422,7 @@ new Chart(document.getElementById('chart'), config);
         }]
       },
       options: {
+      maintainAspectRatio: false,
         plugins: {
           legend: { display: false }
         },
@@ -389,3 +447,50 @@ new Chart(document.getElementById('chart'), config);
       }
     });
   </script>
+
+
+
+<script>
+  const RevenueCtx = document.getElementById('Revenue').getContext('2d');
+
+  new Chart(RevenueCtx, {
+    type: 'bar',
+    data: {
+      labels: ['Nursing', 'Counselor', 'Special Educator', 'Assessments'],
+      datasets: [{
+        data: [450000, 360000, 200000, 110000],
+        backgroundColor: '#0335b5',
+        borderRadius: 10,
+        barPercentage: 0.6,
+        categoryPercentage: 0.6
+      }]
+    },
+    options: {
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false }
+      },
+      scales: {
+        y: {
+          beginAtZero: true,
+          max: 500000,
+          ticks: {
+            stepSize: 100000,
+            callback: function(value) {
+              return value / 1000 + 'k';
+            }
+          },
+          grid: {
+            color: '#d0d7de',
+            borderDash: [5, 5]
+          }
+        },
+        x: {
+          grid: {
+            display: false
+          }
+        }
+      }
+    }
+  });
+</script>

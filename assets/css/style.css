@@ -30674,7 +30674,7 @@ dl li {
 
 .content-wrapper {
   background: #f5f7fa;
-  padding: 2.75rem 1.25rem;
+  padding: 0.75rem 1.25rem;
   width: 100%;
   -webkit-flex-grow: 1;
   flex-grow: 1;
@@ -32162,7 +32162,7 @@ button.update {
 
 .ca1 {
   background-color: #fff;
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
   border-radius: 15px;
   border: 1px solid #E6EFF5;
 }
@@ -32180,15 +32180,15 @@ button.update {
 /* chart */
 .flexOne {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
 }
 
 canvas {
   /* width: 320px !important; */
-    /* height: 280px !important; */
-    margin-top: 25px;
+  /* height: 280px !important; */
+  margin-top: 25px;
 }
 
 .legend {
@@ -32238,24 +32238,24 @@ canvas {
   margin-bottom: 0px;
 }
 
- canvas {
-      background: transparent;
-    }
+canvas {
+  background: transparent;
+}
 
 .ca2 {
-         display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 28px 15px 15px 15px;
-    gap: 20px;
-    padding: 15px;
-    border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 28px 15px 15px 15px;
+  gap: 20px;
+  padding: 15px;
+  border-radius: 15px;
 }
 
 .ca2 p {
   margin-bottom: 0px;
-      font-size: 18px;
-    color: #0335b5;
+  font-size: 18px;
+  color: #0335b5;
 }
 
 .ca2 img {
@@ -32265,6 +32265,7 @@ canvas {
 .card-3 {
   margin: 2% 0% 2% 0%;
 }
+
 .hed p {
   margin-bottom: 0px;
 }
@@ -32282,15 +32283,112 @@ canvas {
   color: #fff;
 }
 
-.bg-main span { 
-    color: #fff;
-    font-size: 30px;
-    font-weight: 600;
-    padding-top: 10px;
+.bg-main span {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  padding-top: 10px;
 }
 
 .hed {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.hed img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.bg-orange {
+  background-image: url(../images/bg-one.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-yellow {
+  background-image: url(../images/bg-two.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-green {
+  background-image: url(../images/bg-three.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-purple {
+  background-image: url(../images/bg-four.svg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card-4 .ca1 {
+  background-color: transparent;
+}
+
+.card-4 .ca2 {
+  margin: 0px 0px 20px 0px;
+  justify-content: left;
+}
+
+.card-4 .ca1 {
+  padding: 0px;
+  border: 0px solid #E6EFF5;
+}
+
+.legendOne {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.legendOne span {
+  width: 12px;
+  height: 12px;
+  border: 2px solid #f4a100;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+canvas {
+  margin-top: 10px;
+}
+
+.cardMain {
+  background: #fff;
+  padding: 20px 20px 45px 20px;
+  border-radius: 20px;
+  /* width: 520px; */
+}
+
+.calsOne {
+  padding: 20px 20px 45px 20px;
+}
+
+.ca1chat {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.ca1chat h3 {
+  color: #00237A;
+  font-size: 18px;
+}
+
+.headerMain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.headerMain .title {
+  color: #00237A;
+  font-size: 18px;
 }

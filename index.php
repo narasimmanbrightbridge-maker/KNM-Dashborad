@@ -98,9 +98,9 @@
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="ca1">
+                <div class="ca1 calsOne" style="height: 360px;">
                   <h3>School Status Overview</h3>
-                  <canvas id="schoolchart" height="260"></canvas>
+                  <canvas id="schoolchart"></canvas>
                 </div>
               </div>
               <div class="col-lg-4">
@@ -138,7 +138,7 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-lg-3">
-                <div class="bg-main" style="background: linear-gradient(140deg,rgba(255, 82, 82, 1) 0%, rgba(247, 148, 69, 1) 75%);">
+                <div class="bg-main bg-orange">
                   <p>Invoice Generated</p>
                   <div class="hed">
                     <span>₹3,25,000</span>
@@ -147,7 +147,7 @@
                 </div>
               </div>
               <div class="col-lg-3">
-                <div class="bg-main" style="background: linear-gradient(140deg,rgba(253, 161, 2, 1) 46%, rgba(255, 200, 37, 1) 75%);">
+                <div class="bg-main bg-yellow">
                   <p>Amount Received</p>
                   <div class="hed">
                     <span>₹85,000</span>
@@ -156,7 +156,7 @@
                 </div>
               </div>
               <div class="col-lg-3">
-                <div class="bg-main" style="background: linear-gradient(140deg,rgba(4, 194, 140, 1) 34%, rgba(4, 194, 140, 1) 37%, rgba(66, 252, 190, 1) 75%);">
+                <div class="bg-main bg-green">
                   <p>Pending Amount</p>
                   <div class="hed">
                     <span>₹26,000</span>
@@ -165,12 +165,69 @@
                 </div>
               </div>
               <div class="col-lg-3">
-                <div class="bg-main" style="background: linear-gradient(140deg,rgba(106, 50, 252, 1) 18%, rgba(185, 96, 225, 1) 70%);">
+                <div class="bg-main bg-purple">
                   <p>Overdue Amount</p>
                   <div class="hed">
                     <span>₹23,000</span>
                     <img src="assets/images/ds.svg" alt="">
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section class="card-4">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="ca1">
+                  <div class="ca2" style="background-color: #FFF5D9">
+                    <img src="assets/images/monthly-revenue.svg" alt="">
+                    <div class="ca3">
+                      <h6>Monthly Revenue</h6>
+                      <p>₹60,360</p>
+                    </div>
+                  </div>
+                  <div class="ca2" style="background-color: #E7EDFF">
+                    <img src="assets/images/monthly-expenses.svg" alt="">
+                    <div class="ca3">
+                      <h6>Monthly Expenses</h6>
+                      <p>₹35,000</p>
+                    </div>
+                  </div>
+                  <div class="ca2" style="background-color: #FFE0EB">
+                    <img src="assets/images/monthly-profit.svg" alt="">
+                    <div class="ca3">
+                      <h6>Monthly Profit</h6>
+                      <p>₹25,360</p>
+                    </div>
+                  </div>
+                  <div class="ca2" style="background-color: #DCFAF8">
+                    <img src="assets/images/three.svg" alt="">
+                    <div class="ca3">
+                      <h6>Profit Margin %</h6>
+                      <p>18.6%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="cardMain" style="height: 360px;">
+                  <div class="headerMain">
+                    <div class="title">Monthly Revenue Trend</div>
+                    <div class="legendOne">
+                      <span></span> Revenue (₹)
+                    </div>
+                  </div>
+                  <canvas id="revenueChart"></canvas>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="ca1chat" style="height: 360px;">
+                  <h3>Revenue by Service</h3>
+                  <canvas id="Revenue"></canvas>
                 </div>
               </div>
             </div>
