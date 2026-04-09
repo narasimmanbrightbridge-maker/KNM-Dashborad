@@ -15828,6 +15828,7 @@ fieldset:disabled .ajax-upload-dragdrop .ajax-file-upload,
   outline: 0;
   outline: 0;
   padding: 10px 30px 10px 30px;
+  border-radius: 30px;
 }
 
 .modal-backdrop {
@@ -31443,14 +31444,6 @@ button.bg-2 {
   color: #29B9A1;
 }
 
-.Overdue {
-  color: #FF3232;
-}
-
-.Pending {
-  color: #F78D1E;
-}
-
 #exampleThree table.dataTable tbody td {
   padding: 15px;
 }
@@ -32215,13 +32208,6 @@ canvas {
   background: #22a699;
 }
 
-.pending {
-  background: #3a7bd5;
-}
-
-.overdue {
-  background: #f39c12;
-}
 
 .ca3 h6 {
   margin-bottom: 0px;
@@ -32391,4 +32377,88 @@ canvas {
 .headerMain .title {
   color: #00237A;
   font-size: 18px;
+}
+
+.status-dropdown {
+  border: unset;
+}
+
+.orange-info {
+  max-width: 15px;
+  cursor: pointer;
+}
+
+.red-info {
+  max-width: 15px;
+  cursor: pointer;
+}
+
+.orange-info,
+.red-info {
+  display: none;
+}
+
+/* Show based on state */
+.status-dropdown.pending+.orange-info {
+  display: inline;
+}
+
+.status-dropdown.overdue+.red-info {
+  display: inline;
+}
+
+
+select.status-dropdown.overdue {
+  color: #FF3232;
+}
+
+select.status-dropdown.pending {
+  color: #F78D1E;
+}
+
+.fls {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+  background: #FCFCFF;
+  padding: 0px;
+  border: 1px solid #D2D2D2;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.Date p {
+  margin-bottom: 0px;
+  padding: 10px;
+  background: #E7EDFF;
+  border: 1px solid #00237A;
+  border-radius: 10px;
+  color: #00237A;
+}
+
+.mainFollw {
+  margin-bottom: 7%;
+}
+
+.btn-one {
+  padding: 13px;
+  border-radius: 5px;
+  border: 1px solid #00237A;
+  background: #fff;
+  color: #00237A;
+}
+
+.btn-two {
+  padding: 13px;
+  border-radius: 5px;
+  border: 1px solid #00237A;
+  background: #00237A;
+  color: #fff;
+  font-size: 13px;
+}
+
+.btnSec {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
 }

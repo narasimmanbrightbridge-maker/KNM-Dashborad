@@ -281,3 +281,125 @@
         </div>
     </div>
 </div>
+
+<!-- Invoice-modal -->
+
+
+<div class="modal fade" id="staticBackdropNine" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Payment Status</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="" class="modalPop">
+                    <div class="input-group">
+                        <input type="text" name="Payment Status" id="nurse_cost" placeholder=" " required>
+                        <label for="Payment Status">Payment Status</label>
+                    </div>
+                    <div class="input-group">
+                        <input class="dateB" type="date" name="Service_Start_Date" id="Start_Date" required>
+                        <label for="Start_Date">Paid Date</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="Transaction ID" id="paid_months" placeholder=" " required>
+                        <label for="Transaction ID">Transaction ID</label>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="cancel" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="update">Update</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- modal-10 -->
+<div class="modal fade" id="staticBackdropTen" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Follow Ups</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="mainFollw">
+                    <div class="foloupus">
+                        <div class="fls">
+                            <div class="Date">
+                                <p>23-03-2026</p>
+                            </div>
+                            <div class="conts">
+                                <p>Payment will be arranged in due course</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="foloupus">
+                        <div class="fls">
+                            <div class="Date">
+                                <p>23-03-2026</p>
+                            </div>
+                            <div class="conts">
+                                <p>Payment will be arranged in due course</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="btnSec">
+                        <button class="btn-one">Cancel</button>
+                        <button class="btn-two"><img src="assets/images/plus.svg" alt=""> Add Folloups</button>
+                    </div>
+
+                </div>
+
+                <form action="" class="modalPop">
+                    <div class="input-group">
+                        <input class="dateB" type="date" name="Service_Start_Date" id="Start_Date" required>
+                        <label for="Start_Date">Date</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="Followup Comments" id="paid_months" placeholder=" " required>
+                        <label for="Followup Comments">Followup Comments</label>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="cancel" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="update">Update</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- modal-11 -->
+<div class="modal fade" id="staticBackdropEleven" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Payment Status</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="" class="modalPop">
+                    <div class="input-group">
+                        <select name="Deal_Upgraded" id="Deal_Upgraded" required>
+                            <option value="" disabled selected hidden></option>
+                            <option value="pending">Pending</option>
+                            <option value="overdue">Overdue</option>
+                        </select>
+                        <label for="Deal_Upgraded">Deal Upgraded</label>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="cancel" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="update">Update</button>
+            </div>
+        </div>
+    </div>
+</div>

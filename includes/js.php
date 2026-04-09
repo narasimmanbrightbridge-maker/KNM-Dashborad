@@ -24,7 +24,7 @@
         label: 'Revenue (₹)',
         data: [30000, 120000, 80000, 185000, 105000, 145000],
         borderColor: '#f4a100',
-        backgroundColor: '#f4a100',
+        backgroundColor: '#1A16F3',
         tension: 0.4,
         pointRadius: 5,
         pointHoverRadius: 6,
@@ -493,4 +493,33 @@ new Chart(document.getElementById('chart'), config);
       }
     }
   });
+</script>
+
+<script>
+const dropdowns = document.querySelectorAll('.status-dropdown');
+
+dropdowns.forEach(select => {
+  const orangeIcon = select.parentElement.querySelector('.orange-info');
+  const redIcon = select.parentElement.querySelector('.red-info');
+
+  function updateUI() {
+    // Reset classes
+    select.classList.remove('paid', 'pending', 'overdue');
+    select.classList.add(select.value);
+
+    // Hide all icons
+    orangeIcon.style.display = 'none';
+    redIcon.style.display = 'none';
+
+    // Show based on value
+    if (select.value === 'pending') {
+      orangeIcon.style.display = 'inline';
+    } else if (select.value === 'overdue') {
+      redIcon.style.display = 'inline';
+    }
+  }
+
+  updateUI();
+  select.addEventListener('change', updateUI);
+});
 </script>

@@ -155,7 +155,9 @@
                     <td>South</td>
                     <td>Monthly</td>
                     <td>10.01.2026</td>
-                    <td><span class="paid">Paid</span></td>
+                    <td>
+                      <span class="paid">Paid</span>
+                    </td>
                     <td><span class="pdf_btn"><img src="assets/images/v22.svg" alt="">PDF</span></td>
                   </tr>
                   <tr>
@@ -164,7 +166,14 @@
                     <td>Banglore</td>
                     <td>Quarterly</td>
                     <td>24.03.2026</td>
-                    <td><span class="Pending">Pending</span></td>
+                    <td>
+                      <img data-bs-toggle="modal" data-bs-target="#staticBackdropNine" class="orange-info" src="assets/images/orange-info.svg" alt="">
+                      <img data-bs-toggle="modal" data-bs-target="#staticBackdropEleven" class="red-info" src="assets/images/red-info.svg" alt="">
+                      <select class="status-dropdown">
+                        <option value="pending" selected>Pending</option>
+                        <option value="overdue">Overdue</option>
+                      </select>
+                    </td>
                     <td><span class="pdf_btn"><img src="assets/images/v22.svg" alt="">PDF</span></td>
                   </tr>
                   <tr>
@@ -173,7 +182,14 @@
                     <td>Telangana</td>
                     <td>Yearly</td>
                     <td>07.02.2026</td>
-                    <td><span class="Overdue">Overdue</span></td>
+                    <td>
+                      <img class="orange-info" src="assets/images/orange-info.svg" alt="">
+                      <img class="red-info" src="assets/images/red-info.svg" alt="">
+                      <select class="status-dropdown">
+                        <option value="pending">Pending</option>
+                        <option value="overdue" selected>Overdue</option>
+                      </select>
+                    </td>
                     <td><span class="pdf_btn"><img src="assets/images/v22.svg" alt="">PDF</span></td>
                   </tr>
                   <tr>
@@ -182,7 +198,9 @@
                     <td>North</td>
                     <td>Monthly</td>
                     <td>10.01.2026</td>
-                    <td><span class="paid">Paid</span></td>
+                    <td>
+                      <span class="paid">Paid</span>
+                    </td>
                     <td><span class="pdf_btn"><img src="assets/images/v22.svg" alt="">PDF</span></td>
                   </tr>
                   <tr>
@@ -191,7 +209,14 @@
                     <td>South</td>
                     <td>Quarterly</td>
                     <td>24.03.2026</td>
-                    <td><span class="paid">Paid</span></td>
+                   <td>
+                    <img class="orange-info" src="assets/images/orange-info.svg" alt="">
+                      <img class="red-info" src="assets/images/red-info.svg" alt="">
+                      <select class="status-dropdown">
+                        <option value="pending" selected>Pending</option>
+                        <option value="overdue">Overdue</option>
+                      </select>
+                    </td>
                     <td><span class="pdf_btn"><img src="assets/images/v22.svg" alt="">PDF</span></td>
                   </tr>
                   <tr>
@@ -200,7 +225,14 @@
                     <td>Banglore</td>
                     <td>Yearly</td>
                     <td>07.02.2026</td>
-                    <td><span class="paid">Paid</span></td>
+                    <td>
+                      <img class="orange-info" src="assets/images/orange-info.svg" alt="">
+                      <img class="red-info" src="assets/images/red-info.svg" alt="">
+                      <select class="status-dropdown">
+                        <option value="pending">Pending</option>
+                        <option value="overdue" selected>Overdue</option>
+                      </select>
+                    </td>
                     <td><span class="pdf_btn"><img src="assets/images/v22.svg" alt="">PDF</span></td>
                   </tr>
                   <tr>
@@ -209,7 +241,9 @@
                     <td>Telangana</td>
                     <td>Monthly</td>
                     <td>10.01.2026</td>
-                    <td><span class="paid">Paid</span></td>
+                    <td>
+                      <span class="paid">Paid</span>
+                    </td>
                     <td><span class="pdf_btn"><img src="assets/images/v22.svg" alt="">PDF</span></td>
                   </tr>
 
@@ -219,7 +253,14 @@
                     <td>North</td>
                     <td>Quarterly</td>
                     <td>24.03.2026</td>
-                    <td><span class="paid">Paid</span></td>
+                    <td>
+                      <img class="orange-info" src="assets/images/orange-info.svg" alt="">
+                      <img class="red-info" src="assets/images/red-info.svg" alt="">
+                      <select class="status-dropdown">
+                        <option value="pending" selected>Pending</option>
+                        <option value="overdue">Overdue</option>
+                      </select>
+                    </td>
                     <td><span class="pdf_btn"><img src="assets/images/v22.svg" alt="">PDF</span></td>
                   </tr>
 
@@ -230,7 +271,14 @@
                     <td>South</td>
                     <td>Yearly</td>
                     <td>07.02.2026</td>
-                    <td><span class="paid">Paid</span></td>
+                   <td>
+                    <img class="orange-info" src="assets/images/orange-info.svg" alt="">
+                      <img class="red-info" src="assets/images/red-info.svg" alt="">
+                      <select class="status-dropdown">
+                        <option value="pending">Pending</option>
+                        <option value="overdue" selected>Overdue</option>
+                      </select>
+                    </td>
                     <td><span class="pdf_btn"><img src="assets/images/v22.svg" alt="">PDF</span></td>
                   </tr>
 
@@ -240,8 +288,10 @@
                     <td>Banglore</td>
                     <td>Monthly</td>
                     <td>10.01.2026</td>
-                    <td><span class="paid">Paid</span></td>
-                    <td><span class="pdf_btn"><img src="assets/images/v22.svg" alt="">PDF</span></td>
+                    <td>
+                      <span class="paid">Paid</span>
+                    </td>
+                    <td><span class="pdf_btn"><img data-bs-toggle="modal" data-bs-target="#staticBackdropTen" src="assets/images/v22.svg" alt="">PDF</span></td>
                   </tr>
 
                 </tbody>
@@ -252,6 +302,7 @@
 
       </div>
       <?php include './includes/footer.php'; ?>
+      <?php include './includes/modal.php'; ?>
     </div>
 
   </div>
