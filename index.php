@@ -22,7 +22,7 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col-lg-3">
-                <div class="port">
+                <a href="schools.php"><div class="port">
                   <div class="conts">
                     <img src="assets/images/4.svg" alt="">
                     <div class="cont">
@@ -30,10 +30,11 @@
                       <p>200</p>
                     </div>
                   </div>
-                </div>
+                </div></a>
               </div>
               <div class="col-lg-3">
-                <div class="port">
+                <a href="schools.php">
+                  <div class="port">
                   <div class="conts">
                     <img src="assets/images/3.svg" alt="">
                     <div class="cont">
@@ -42,9 +43,11 @@
                     </div>
                   </div>
                 </div>
+                </a>
               </div>
               <div class="col-lg-3">
-                <div class="port">
+                <a href="schools.php">
+                  <div class="port">
                   <div class="conts">
                     <img src="assets/images/2.svg" alt="">
                     <div class="cont">
@@ -53,9 +56,11 @@
                     </div>
                   </div>
                 </div>
+                </a>
               </div>
               <div class="col-lg-3">
-                <div class="port">
+                <a href="schools.php">
+                  <div class="port">
                   <div class="conts">
                     <img src="assets/images/1.svg" alt="">
                     <div class="cont">
@@ -63,6 +68,7 @@
                       <p>03</p>
                     </div>
                   </div>
+                </a>
                 </div>
               </div>
             </div>
