@@ -483,7 +483,8 @@
                                     <thead>
                                       <tr>
                                         <th>Health Assessment</th>
-                                        <th><img data-bs-toggle="modal" data-bs-target="#staticBackdropEight" src="assets/images/pencilTwo.svg" alt=""></th>
+                                        <th></th>
+                                        <!-- <img data-bs-toggle="modal" data-bs-target="#staticBackdropEight" src="assets/images/pencilTwo.svg" alt=""> -->
                                       </tr>
                                     </thead>
                                     <tbody>
@@ -499,6 +500,101 @@
                                   </table>
                                 </div>
                               </div>
+                            </div>
+
+
+                            <!-- <div class="row">
+                              <div class="col-lg-10">
+                                <div class="waper mt-5">
+                                  <table id="tableFive" class="table" cellspacing="0" width="100%">
+                                    <thead>
+                                      <tr>
+                                        <th>Commission on Deal</th>
+                                        <th></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Total Cost To Us</td>
+                                        <td class="text_blue">2,64,640</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Total Deal Value</td>
+                                        <td class="text_blue">3,25,000</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Annual Margin</td>
+                                        <td class="text_Green"><img src="assets/images/Polygon_green.svg" alt="">60,360</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Monthly Margin</td>
+                                        <td class="text_Green"><img src="assets/images/Polygon_green.svg" alt="">15,090</td>
+                                      </tr>
+                                      <tr>
+                                        <td>Margin %</td>
+                                        <td><span class="text_Green_span"><img src="assets/images/Polygon_dark_green.svg" alt="">18.6%</span></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+                            </div> -->
+
+                          </div>
+                        </div>
+
+
+
+                        <div class="faq-item">
+                          <button class="faq-question">
+                            Other Services <span class="icon"><img src="assets/images/Vector3.svg" alt=""></span>
+                          </button>
+                          <div class="faq-answer">
+                            <div class="row">
+                              <div class="col-lg-6">
+                                <div class="waper">
+                                  <table id="tableSix" class="table" cellspacing="0" width="100%">
+                                    <thead>
+                                      <tr>
+                                        <th>Doctor Visit/Health Session</th>
+                                        <th>
+                                          <img data-bs-toggle="modal" data-bs-target="#staticBackdropEight" src="assets/images/pencilTwo.svg" alt="">
+                                        </th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Cost</td>
+                                        <td>1000</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+
+
+                              <div class="col-lg-6">
+                                <div class="waper">
+                                  <table id="tableSix" class="table" cellspacing="0" width="100%">
+                                    <thead>
+                                      <tr>
+                                        <th>BD/OPS Travel</th>
+                                        <th>
+                                          <!-- <img data-bs-toggle="modal" data-bs-target="#staticBackdropEight" src="assets/images/pencilTwo.svg" alt=""> -->
+                                        </th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>Cost</td>
+                                        <td>500</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+                              </div>
+
+
                             </div>
 
 
@@ -540,6 +636,9 @@
                             </div>
                           </div>
                         </div>
+
+
+
                       </div>
                     </section>
                   </div>

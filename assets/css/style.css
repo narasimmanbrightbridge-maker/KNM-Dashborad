@@ -31149,7 +31149,7 @@ button.bg-2 {
 
 
 #tableThree th {
-  background: #DCFAF8;
+  background: #F5DDFF;
   border-top-right-radius: 0px;
   text-align: left;
   color: #0335b5;
@@ -31244,6 +31244,17 @@ button.bg-2 {
   border-radius: unset;
   cursor: pointer;
 }
+
+#tableSix img {
+  width: 20px;
+  display: block;
+  margin-left: auto;
+  object-fit: cover;
+  height: auto;
+  border-radius: unset;
+  cursor: pointer;
+}
+
 
 #tableFive td:nth-of-type(1) {
   width: 275px;
@@ -32488,4 +32499,19 @@ select.status-dropdown.pending {
   display: flex;
   gap: 25px;
   align-items: end;
+}
+
+#tableSix th {
+    background: #E9EDCA;
+    border-top-right-radius: 0px;
+    text-align: left;
+    color: #0335b5;
+}
+
+#tableSix td {
+    border: 1px solid #E6EFF5;
+    font-weight: 500;
+    color: #6C6C6C;
+    text-align: left;
+    padding: 13px;
 }

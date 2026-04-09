@@ -116,7 +116,7 @@
                 <td>2</td>
                 <td>9130</td>
                 <td>ABC Matric higher Secondary School</td>
-                <td>South</td>
+                <td>Banglore</td>
                 <td>
                   <div class="colors">
                     <span class="orange">Nursing+Medicine</span>
@@ -125,15 +125,15 @@
                   </div>
                 </td>
 
-                <td>Nishant rathee</td>
+                <td>Sanma</td>
                 <td>Murthy</td>
                 <td>Active</td>
               </tr>
               <tr>
                 <td>3</td>
-                <td>9130</td>
-                <td>ABC Matric higher Secondary School</td>
-                <td>South</td>
+                <td>9131</td>
+                <td>SNR Matric higher Secondary School</td>
+                <td>Telangana</td>
                 <td>
                   <div class="colors">
                     <span class="blue">Nursing</span>
@@ -142,15 +142,15 @@
                   </div>
                 </td>
 
-                <td>Nishant rathee</td>
-                <td>Murthy</td>
-                <td>Active</td>
+                <td>Sridhar</td>
+                <td>Bhaskar</td>
+                <td>Inactive</td>
               </tr>
               <tr>
                 <td>4</td>
-                <td>9130</td>
-                <td>ABC Matric higher Secondary School</td>
-                <td>South</td>
+                <td>9132</td>
+                <td>Mahatma Matriculation School</td>
+                <td>North</td>
                 <td>
 
                   <div class="colors">
@@ -164,13 +164,13 @@
                 </td>
 
                 <td>Nishant rathee</td>
-                <td>Murthy</td>
-                <td>Active</td>
+                <td>Sanma</td>
+                <td>Closed</td>
               </tr>
               <tr>
                 <td>5</td>
-                <td>9130</td>
-                <td>ABC Matric higher Secondary School</td>
+                <td>9133</td>
+                <td>Sri Ramakrishna Matriculation School</td>
                 <td>South</td>
                 <td>
                   <div class="colors">
@@ -180,16 +180,16 @@
                   </div>
                 </td>
 
-                <td>Nishant rathee</td>
+                <td>Sanma</td>
                 <td>Murthy</td>
                 <td>Active</td>
               </tr>
 
               <tr>
                 <td>6</td>
-                <td>9130</td>
+                <td>9134</td>
                 <td>ABC Matric higher Secondary School</td>
-                <td>South</td>
+                <td>Banglore</td>
                 <td>
                   <div class="colors">
                     <span class="orange">Nursing+Medicine</span>
@@ -198,16 +198,16 @@
                   </div>
                 </td>
 
-                <td>Nishant rathee</td>
-                <td>Murthy</td>
+                <td>Sridhar</td>
+                <td>Bhaskar</td>
                 <td>Active</td>
               </tr>
 
               <tr>
                 <td>7</td>
-                <td>9130</td>
-                <td>ABC Matric higher Secondary School</td>
-                <td>South</td>
+                <td>9135</td>
+                <td>SNR Matric higher Secondary School</td>
+                <td>Telangana</td>
                 <td>
                   <div class="colors">
                     <span class="orange">Nursing+Medicine</span>
@@ -225,9 +225,9 @@
 
               <tr>
                 <td>8</td>
-                <td>9130</td>
-                <td>ABC Matric higher Secondary School</td>
-                <td>South</td>
+                <td>9136</td>
+                <td>Mahatma Matriculation School</td>
+                <td>North</td>
                 <td>
                   <div class="colors">
                     <span class="orange">Nursing+Medicine</span>
@@ -236,7 +236,7 @@
                   </div>
                 </td>
 
-                <td>Nishant rathee</td>
+                <td>Sanma</td>
                 <td>Murthy</td>
                 <td>Active</td>
               </tr>
@@ -244,8 +244,8 @@
 
               <tr>
                 <td>9</td>
-                <td>9130</td>
-                <td>ABC Matric higher Secondary School</td>
+                <td>9137</td>
+                <td>Sri Ramakrishna Matriculation School</td>
                 <td>South</td>
                 <td>
                   <div class="colors">
@@ -255,15 +255,15 @@
                   </div>
                 </td>
 
-                <td>Nishant rathee</td>
+                <td>Sridhar</td>
                 <td>Murthy</td>
                 <td>Active</td>
               </tr>
 
               <td>10</td>
-              <td>9130</td>
+              <td>9138</td>
               <td>ABC Matric higher Secondary School</td>
-              <td>South</td>
+              <td>Banglore</td>
               <td>
                 <div class="colors">
                   <span class="blue">Nursing</span>
