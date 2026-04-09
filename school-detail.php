@@ -84,8 +84,8 @@
 
                   <div id="tab1" class="tab-content">
                     <div class="row row-2">
-                      <div class="col-lg-6">
 
+                      <div class="col-lg-6">
                         <div class="flx">
                           <div class="centerTwo extra">
                             <label>Academic Year</label>
@@ -98,32 +98,14 @@
                               <option>2020 - 2021</option>
                             </select>
                           </div>
-                         
+                          <button class="btn-5"><img src="assets/images/download-btn.svg" alt="">Upload MOU</button>
+                        </div>
+                      </div>
 
-               
-                            <select class="select2 s1" style="width: 200px !important; max-width: 200px !important;">
-                              <option value="1" selected>Services</option>
-                              <option value="2">Option 1</option>
-                              <option value="3">Option 2</option>
-                            </select>
-
-
-                            <select class="select2 s1" style="width: 200px !important; max-width: 200px !important;">
-                              <option value="1" selected>Month</option>
-                              <option value="2">Option 1</option>
-                              <option value="3">Option 2</option>
-                            </select>
-
-
-                            <select class="select2 s1" style="width: 200px !important; max-width: 200px !important;">
-                              <option value="1" selected>Status</option>
-                              <option value="2">Option 1</option>
-                              <option value="3">Option 2</option>
-                            </select>
-                       
-                             <button class="bg-2"><img src="assets/images/565.svg" alt="">Edit</button>
-
-
+                      <div class="col-lg-6">
+                        <div class="flx_2">
+                          <button class="btn-5">Download MOU<img src="assets/images/download-btn.svg" alt=""></button>
+                          <button class="bg-2"><img src="assets/images/565.svg" alt="">Edit</button>
                         </div>
                       </div>
                     </div>

@@ -28857,7 +28857,7 @@ dl li {
 .select2-container--default .select2-selection--single .select2-selection__rendered {
   line-height: 14px;
   font-weight: 800;
-  color: #0050e3;
+  color: #0335b5;
 }
 
 .select2-container--default .select2-dropdown {
@@ -29301,7 +29301,9 @@ dl li {
   -ms-transition: width 0.25s ease, background 0.25s ease;
   background: #0335B5;
   width: 260px;
-  height: 70px;
+  height: 85px;
+      padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 @media (max-width: 991px) {
@@ -30675,7 +30677,7 @@ dl li {
 
 .content-wrapper {
   background: #f5f7fa;
-  padding: 0.75rem 1.25rem;
+  padding: 3rem 1.25rem;
   width: 100%;
   -webkit-flex-grow: 1;
   flex-grow: 1;
@@ -30815,7 +30817,6 @@ table.dataTable thead>tr>th.sorting_asc:after {
   justify-content: center;
   align-items: center;
   margin-top: 5%;
-  /* width: 153px; */
 }
 
 select.select2 {
@@ -30824,6 +30825,7 @@ select.select2 {
 
 .TopBarSec {
   justify-content: space-between;
+  margin: 2% 0% 2% 0%;
 }
 
 button.bg-1 {
@@ -30853,8 +30855,6 @@ button.bg-2 {
   align-items: center;
   font-weight: 500;
   letter-spacing: 0px;
-  margin-left: auto;
-  margin-bottom: 20px;
 }
 
 .Plus {
@@ -30862,7 +30862,7 @@ button.bg-2 {
 }
 
 .TabelSection {
-  margin: 4% 0% 4% 0%;
+  margin: 2% 0% 4% 0%;
 }
 
 .colors {
@@ -31001,9 +31001,6 @@ button.bg-2 {
 
 .tab-content {
   display: none;
-  margin-top: 3%;
-  border-radius: 5px;
-
 }
 
 .TabTabelSec {
@@ -31048,7 +31045,7 @@ button.bg-2 {
 
 
 .faq-section {
-  padding: 20px;
+  padding: 20px 0px 20px 0px;
   font-family: "Segoe UI", sans-serif;
 }
 
@@ -31825,6 +31822,7 @@ button.bg-2 {
 
 .centerTwo .select2-container--default .select2-selection--single {
   border-radius: 20px;
+  background: #F5F7FA;
 }
 
 .centerTwo .select2-container {
@@ -31986,13 +31984,23 @@ button.update {
 
 #tab1 .row-2 {
   justify-content: end;
+  align-items: center;
 }
 
 .flx {
   display: flex;
-  justify-content: end;
+  justify-content: left;
   align-items: baseline;
   gap: 25px;
+  margin-bottom: 20px;
+}
+
+.flx_2 {
+  display: flex;
+  justify-content: end;
+  align-items: unset;
+  gap: 25px;
+  margin-bottom: 20px;
 }
 
 .FormSect input {
@@ -32461,4 +32469,22 @@ select.status-dropdown.pending {
   display: flex;
   justify-content: end;
   gap: 20px;
+}
+
+.btn-5 {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #00237A;
+  background: transparent;
+  color: #0335b5;
+  font-size: 14px;
+}
+
+.caps {
+  display: flex;
+  gap: 25px;
+  align-items: end;
 }

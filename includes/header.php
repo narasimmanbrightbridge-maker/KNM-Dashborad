@@ -5,6 +5,9 @@ $pageTitles = [
   'schools.php' => 'Schools',
   'viewall.php' => 'Schools',
   'add-new.php' => 'Add School',
+  'costings.php' => 'Costing',
+  'invoice.php' => 'Invoice',
+  'school-detail-form.php' => 'School Detail Form'
 ];
 $mainHeading = $pageTitles[$currentPage] ?? 'KNM Dashboard';
 ?>
@@ -25,7 +28,46 @@ $mainHeading = $pageTitles[$currentPage] ?? 'KNM Dashboard';
       <span><img src="assets/images/menu.svg" alt="Open menu"></span>
     </button>
 
-    <img width="50" src="assets/images/group-one.svg" alt="">
+    <div class="caps">
+      <div class="centerTwo extra">
+        <label>Academic Year</label>
+        <select class="select2 custom">
+          <option>2025 - 2026</option>
+          <option>2024 - 2025</option>
+          <option>2023 - 2024</option>
+          <option>2022 - 2023</option>
+          <option>2021 - 2022</option>
+          <option>2020 - 2021</option>
+        </select>
+      </div>
+
+      <div class="centerTwo extra">
+        <label>KAM</label>
+        <select class="select2 custom">
+          <option>KAM</option>
+          <option>KAM</option>
+          <option>KAM</option>
+          <option>KAM</option>
+          <option>KAM</option>
+          <option>KAM</option>
+        </select>
+      </div>
+
+
+      <div class="centerTwo extra">
+        <label>BD</label>
+        <select class="select2 custom">
+          <option>BD</option>
+          <option>BD</option>
+          <option>BD</option>
+          <option>BD</option>
+          <option>BD</option>
+          <option>BD</option>
+        </select>
+      </div>
+
+      <img width="50" src="assets/images/group-one.svg" alt="">
+    </div>
 
   </div>
 </nav>
